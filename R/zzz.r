@@ -1,4 +1,4 @@
-.First.lib <-
+.onAttach <-
 function (libname, pkgname)
 {
    date <- date()
@@ -6,8 +6,8 @@ function (libname, pkgname)
    this.year <- substr(date, x[1], x[1] + attr(x, "match.length") - 1)
    
    # echo output to screen
-   cat("##\n## ebal Package: Implements Entropy Balancing.\n")
-   cat("## See http://www.mit.edu/~jhainm/ for additional information.\n\n")
-#library.dynam(pkgname, pkgname, lib.loc=libname)
+   packageStartupMessage("##\n## ebal Package: Implements Entropy Balancing.\n")
+   packageStartupMessage("## See http://www.mit.edu/~jhainm/ for additional information.\n\n")
+
 }
 
