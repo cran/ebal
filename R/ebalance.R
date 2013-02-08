@@ -18,7 +18,7 @@ function(
         stop("Treatment indicator ('Treatment') must contain both treatment and control observations")
     }
 
-    Treatment <- as.real(Treatment)
+    Treatment <- as.numeric(Treatment)
     X         <- as.matrix(X)
     
     if (sum(is.na(X))>0){

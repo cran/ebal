@@ -1,9 +1,9 @@
 64f5dab1a3daf7c037593c7a2453319e *COPYING
-457469f07ec9f528b2f99b6d3c6b2f5c *DESCRIPTION
+1f7dd8c977586fe5387f59583dd41afb *DESCRIPTION
 d1d8825bee782cd4e2ee0d2d673e871b *NAMESPACE
 27f47933b1c917125da30ddc60fef322 *R/baltest.collect.R
 e9506de6eab057adc2d5a48fcb7622c0 *R/eb.R
-e6c26e1304198d88662ab1ddd4697b84 *R/ebalance.R
+6e1ee27e34f833d0bf3223cae5de51c8 *R/ebalance.R
 c6f4cd1f7b4165407753b234bb751579 *R/ebalance.trim.r
 ecacef740eacca4fd4763296b52e0a5c *R/getsquares.R
 512adf5c3ec9cbd0a4d9e66f801a99f2 *R/line.searcher.r
