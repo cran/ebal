@@ -8,7 +8,11 @@ This function is called internally by \code{\link{ebalance}} and \code{\link{eba
 entropy balancing. This function would normally not be called manually by a user.
 }
 \usage{
-eb(tr.total = tr.total, co.x = co.x, coefs = coefs, base.weight = base.weight, max.iterations = max.iterations, constraint.tolerance = constraint.tolerance, print.level = print.level)
+eb(tr.total = tr.total, co.x = co.x,
+   coefs = coefs, base.weight = base.weight, 
+   max.iterations = max.iterations, 
+   constraint.tolerance = constraint.tolerance, 
+   print.level = print.level)
 }
 
 \arguments{

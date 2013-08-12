@@ -11,7 +11,11 @@ reduced to satisfy a user specified target. If no user target is specified the m
 is automatically trimmed as far as is feasible given the data.
 }
 \usage{
-ebalance.trim(ebalanceobj, max.weight = NULL, min.weight = 0, max.trim.iterations = 200, max.weight.increment = 0.92, min.weight.increment = 1.08, print.level = 0)
+ebalance.trim(ebalanceobj, max.weight = NULL,
+min.weight = 0, max.trim.iterations = 200,
+max.weight.increment = 0.92,
+min.weight.increment = 1.08,
+print.level = 0)
 }
 
 \arguments{

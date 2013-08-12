@@ -9,8 +9,7 @@ This function implements entropy balancing, a data preprocessing procedure that 
 reweight a dataset. The preprocessing is based on a maximum entropy reweighting scheme 
 that assigns weights to each data unit such that the covariate distributions in 
 the reweighted data satisfy a set of moment conditions set by the researcher. This can be useful to 
-balance covariate distributions in observational studies with a binary treatment where the control group data can be reweighted to 
-match the covariate moments in the treatment group. Entropy balancing can also be used to reweight 
+balance covariate distributions in observational studies with a binary treatment where the control group data can be reweighted to match the covariate moments in the treatment group. Entropy balancing can also be used to reweight 
 a survey sample to known characteristics from a target population. The weights that result from entropy balancing
 can be passed to any standard model to subsequently analyze the reweighted data. 
 
@@ -20,7 +19,10 @@ to analyze the average treatment effect on the treated.
 
 }
 \usage{
-ebalance(Treatment, X, base.weight = NULL, norm.constant = NULL, coefs = NULL, max.iterations = 200, constraint.tolerance = 1, print.level = 0)
+ebalance(Treatment, X, base.weight = NULL, 
+norm.constant = NULL, coefs = NULL, 
+max.iterations = 200, 
+constraint.tolerance = 1, print.level = 0)
 }
 
 \arguments{

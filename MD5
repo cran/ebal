@@ -1,5 +1,7 @@
-64f5dab1a3daf7c037593c7a2453319e *COPYING
-1f7dd8c977586fe5387f59583dd41afb *DESCRIPTION
+e05bc41d44eca6033505d77e73184b7e *DESCRIPTION
+eb723b61539feef013de476e68b5c50a *GPL-2
+d32239bcb673463ab874e80d47fae504 *GPL-3
+38215d79f0977ccfb4a81a7a3cb176e6 *LICENSE.note
 d1d8825bee782cd4e2ee0d2d673e871b *NAMESPACE
 27f47933b1c917125da30ddc60fef322 *R/baltest.collect.R
 e9506de6eab057adc2d5a48fcb7622c0 *R/eb.R
@@ -10,9 +12,9 @@ ecacef740eacca4fd4763296b52e0a5c *R/getsquares.R
 42e80ce523f22f9a06a292dfd3fe42ae *R/matrixmaker.R
 11bd805b64a5606cfd8836b393f72f93 *R/zzz.r
 d93d728bf7d3cfd3f648cc7d77e958ad *man/baltest.collect.Rd
-3ce231abf4973957e373c6c81676ff0e *man/eb.Rd
-051c44f98e8cc14792d8a7beab489895 *man/ebalance.Rd
-7c9f74dfac5cb31361150304c4cc81bf *man/ebalance.trim.Rd
+3dc244f232dbeec46e37ef97dd947280 *man/eb.Rd
+25db3065df0d4d8bd435ed84b257395c *man/ebalance.Rd
+02b60805e3e5a153017f66f3efcaf2b8 *man/ebalance.trim.Rd
 984c50d30fe6b12246ac82f799d4c07d *man/getsquares.Rd
-ed77e42fc058da5c539966da4646a94c *man/line.searcher.Rd
+e56493f24f4cf4f00944edab7dd9bd39 *man/line.searcher.Rd
 bc23dc302fa8651d42fc7a135c8f31b8 *man/matrixmaker.Rd

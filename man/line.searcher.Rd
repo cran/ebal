@@ -8,7 +8,8 @@ Function called internally by \code{ebalance} and \code{ebalance.trim} to comput
 step length for entropy balancing algorithm. This function would normally not be called manually by a user.  
 }
 \usage{
-line.searcher(Base.weight, Co.x, Tr.total, coefs, Newton, ss)
+line.searcher(Base.weight, Co.x, 
+Tr.total, coefs, Newton, ss)
 }
 \arguments{
   \item{Base.weight}{
