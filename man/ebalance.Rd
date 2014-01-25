@@ -5,17 +5,11 @@
 Entropy balancing
 }
 \description{
-This function implements entropy balancing, a data preprocessing procedure that allows users to
-reweight a dataset. The preprocessing is based on a maximum entropy reweighting scheme 
-that assigns weights to each data unit such that the covariate distributions in 
-the reweighted data satisfy a set of moment conditions set by the researcher. This can be useful to 
-balance covariate distributions in observational studies with a binary treatment where the control group data can be reweighted to match the covariate moments in the treatment group. Entropy balancing can also be used to reweight 
-a survey sample to known characteristics from a target population. The weights that result from entropy balancing
-can be passed to any standard model to subsequently analyze the reweighted data. 
+This function implements entropy balancing, a data preprocessing procedure that allows users to reweight a dataset. The preprocessing is based on a maximum entropy reweighting scheme 
+that assigns weights to each unit such that the covariate distributions in the reweighted data satisfy a set of moment conditions specified by the researcher. This can be useful to balance covariate distributions in observational studies with a binary treatment where the control group data can be reweighted to match the covariate moments in the treatment group. Entropy balancing can also be used to reweight a survey sample to known characteristics from a target population. The weights that result from entropy balancing
+can be passed to regression or other models to subsequently analyze the reweighted data. 
 
-By default, \code{ebalance} reweights the covariate distributions from a control group to match target moments 
-that are computed from a treatment group such that the reweighted data can be used 
-to analyze the average treatment effect on the treated. 
+By default, \code{ebalance} reweights the covariate distributions from a control group to match target moments that are computed from a treatment group such that the reweighted data can be used to analyze the average treatment effect on the treated. 
 
 }
 \usage{
@@ -39,12 +33,10 @@ of the raw covariates can be included. To adjust co-moments, interaction terms c
 this matrix must have positive variance and the matrix must be invertible. No missing data is allowed.
 }
   \item{base.weight}{
-An optional vector of base weights for the maximum entropy reweighting (one weight for each control unit). 
-The default is uniform base weights. 
+An optional vector of base weights for the maximum entropy reweighting (one weight for each control unit). The default is uniform base weights. 
 }
   \item{norm.constant}{
-An optional normalizing constant. By default the weights are normalized such 
-that the sum of the weights for the reweighted control group match the number of observations in the treatment group. 
+An optional normalizing constant. By default the weights are normalized such that the sum of the weights for the reweighted control group match the number of observations in the treatment grou. 
 }
   \item{coefs}{
 An optional vector of model coefficients to start the reweighting.
@@ -53,16 +45,14 @@ An optional vector of model coefficients to start the reweighting.
 Maximum number of iterations that will be run when attempting to reweight the data.
 }
   \item{constraint.tolerance}{
-This is the tolerance level used by \code{ebalance} to decide if the moments in the reweighted 
-data are equal to the target moments.
+This is the tolerance level used by \code{ebalance} to decide if the moments in the reweighted data are equal to the target moments.
 }
   \item{print.level}{
 Controls the level of printing: 0 (normal printing), 2 (detailed), and 3 (very detailed).
 }
 }
 \details{
-If the user wants to pass different target moments these should be entered in a new 
-row in the dataset which contains the target means for the covariate distributions. 
+If the user wants to pass different target moments these should be entered in a new row in the dataset which contains the target means for the covariate distributions. 
 }
 \value{
 An list object of class \code{ebalance} with the following elements:

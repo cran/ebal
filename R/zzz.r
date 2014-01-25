@@ -7,7 +7,7 @@ function (libname, pkgname)
    
    # echo output to screen
    packageStartupMessage("##\n## ebal Package: Implements Entropy Balancing.\n")
-   packageStartupMessage("## See http://www.mit.edu/~jhainm/ for additional information.\n\n")
+   packageStartupMessage("## See http://www.stanford.edu/~jhain/ for additional information.\n\n")
 
 }
 

@@ -4,8 +4,7 @@
 Function for Entropy Balancing
 }
 \description{
-This function is called internally by \code{\link{ebalance}} and \code{\link{ebalance.trim}} to implement 
-entropy balancing. This function would normally not be called manually by a user.
+This function is called internally by \code{\link{ebalance}} and \code{\link{ebalance.trim}} to implement entropy balancing. This function would normally not be called manually by a user.
 }
 \usage{
 eb(tr.total = tr.total, co.x = co.x,
@@ -39,7 +38,7 @@ NA
 }
 }
 
-\value{ A list containing the results from the algorithm .
+\value{ A list containing the results from the algorithm.
 }
 
 \author{

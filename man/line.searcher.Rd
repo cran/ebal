@@ -4,8 +4,7 @@
 Optimal step length search for entropy balancing algorithm 
 }
 \description{
-Function called internally by \code{ebalance} and \code{ebalance.trim} to compute optimal 
-step length for entropy balancing algorithm. This function would normally not be called manually by a user.  
+Function called internally by \code{ebalance} and \code{ebalance.trim} to compute optimal step length for entropy balancing algorithm. This function would normally not be called manually by a user.  
 }
 \usage{
 line.searcher(Base.weight, Co.x, 

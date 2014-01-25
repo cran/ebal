@@ -4,8 +4,7 @@
 Collect Covariate Balance Statistics 
 }
 \description{
-A function that summarizes the covariate balance statistics that are computed by \code{MatchBalance(Matching)} 
-in a balance table.  
+A function that summarizes the covariate balance statistics that are computed by \code{MatchBalance(Matching)} in a balance table.  
 }
 \usage{
 baltest.collect(matchbal.out, var.names, after = TRUE)
@@ -19,8 +18,7 @@ An object from a call to \code{MatchBalance(Matching)}
 A vector of covariate names.
 }
   \item{after}{
-A logical flag for whether the results from before or after Matching should be summarized. If TRUE \code{baltest.collect} summarizes the results from the 
-covariate balance checks that \code{MatchBalance} computes in the matched data. If FALSE the results from the balance checks in the unmatched data are used.
+A logical flag for whether the results from before or after Matching should be summarized. If TRUE \code{baltest.collect} summarizes the results from the covariate balance checks that \code{MatchBalance} computes in the matched data. If FALSE the results from the balance checks in the unmatched data are used.
 }
 }
 \details{

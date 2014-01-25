@@ -4,11 +4,9 @@
 Trimming of Weights for Entropy Balancing
 }
 \description{
-Function to trim weights obtained from entropy balancing. It takes the output 
-from a call to \code{ebalance} and trims the data weights (subject to the moment conditions) such that the 
+Function to trim weights obtained from entropy balancing. It takes the output from a call to \code{ebalance} and trims the data weights (subject to the moment conditions) such that the 
 ratio of the maximum/minimum weight to the mean weight is 
-reduced to satisfy a user specified target. If no user target is specified the maximum weight ratio 
-is automatically trimmed as far as is feasible given the data.
+reduced to satisfy a user specified target. If no user target is specified the maximum weight ratio is automatically trimmed as far as is feasible given the data.
 }
 \usage{
 ebalance.trim(ebalanceobj, max.weight = NULL,
@@ -61,7 +59,6 @@ An list object of class \code{ebalance.trim} with the following elements:
 \references{
 
 Hainmueller, J. (2012) 'Entropy Balancing for Causal Effects: A Multivariate Reweighting Method to Produce Balanced Samples in Observational Studies', Political Analysis (Winter 2012) 20 (1): 25--46.
-
 
 Zaslavsky, A. (1988), 'Representing local reweighting area adjustments by of households', Survey Methodology 14(2), 265--288.
 
