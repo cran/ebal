@@ -1,12 +1,12 @@
-2db5f200331d4d60a5efe81fbf936682 *DESCRIPTION
+89807c9b5d477e374009cda70b0f30d1 *DESCRIPTION
 eb723b61539feef013de476e68b5c50a *GPL-2
 d32239bcb673463ab874e80d47fae504 *GPL-3
 38215d79f0977ccfb4a81a7a3cb176e6 *LICENSE.note
-ee28e484facfba840aa6997f0ddc8bb4 *NAMESPACE
+cf58d49a7f8cb6e6d8e397f8bfb37055 *NAMESPACE
 27f47933b1c917125da30ddc60fef322 *R/baltest.collect.R
-e9506de6eab057adc2d5a48fcb7622c0 *R/eb.R
-1bdabff8798c8b0bef0ccde82d9a8fa0 *R/ebalance.R
-c6f4cd1f7b4165407753b234bb751579 *R/ebalance.trim.r
+26abad012ba88bce4ac5c9c80b0e0dd4 *R/eb.R
+f26a2f7f0aea30d45ce2b3f877ed0c9f *R/ebalance.R
+dd21e7e7e549e8d9c9c0f04ca158e9e4 *R/ebalance.trim.r
 ecacef740eacca4fd4763296b52e0a5c *R/getsquares.R
 512adf5c3ec9cbd0a4d9e66f801a99f2 *R/line.searcher.r
 42e80ce523f22f9a06a292dfd3fe42ae *R/matrixmaker.R

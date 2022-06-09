@@ -20,10 +20,10 @@ for(iter in 1:max.iterations) {
  }
  if(print.level>=2){ cat("Iteration",iter,"maximum deviation is =",format(max(abs(gradient)),digits=4),"\n") }
  hessian = t(co.x) %*% (weights.ebal * co.x)
- Coefs <- coefs
+ Coefs  <- coefs
  newton <- solve(hessian,gradient)
  coefs  <- coefs - newton
- loss.new <- line.searcher(Base.weight=base.weight,Co.x=co.x,Tr.total=tr.total,coefs=coefs,Newton=newton,ss=1)
+ loss.new <- line.searcher(Base.weight=base.weight,Co.x=co.x,Tr.total=tr.total,coefs=Coefs,Newton=newton,ss=1)
  loss.old <- line.searcher(Base.weight=base.weight,Co.x=co.x,Tr.total=tr.total,coefs=Coefs,Newton=newton,ss=0)
 if(print.level>=3){cat("new loss",loss.new,"old loss=",loss.old,"\n")}
 

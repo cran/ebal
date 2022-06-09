@@ -10,7 +10,7 @@ ebalance.trim <-
            print.level=0
            )
     {
-    if( class(ebalanceobj)!= "ebalance" ){
+    if( is(ebalanceobj,"ebalance")==FALSE ){
      stop("ebalanceobj must be an ebalance object from a call to ebalance()")
     }
     minimization <- FALSE
@@ -82,7 +82,7 @@ ebalance.trim <-
            }
     ,silent=TRUE)) # end try call
     
-    if(class(IsError)=="try-error") {
+    if( is(IsError,"try-error") ) {
        if(print.level >= 2) { cat("no further decrease in max weight ratio \n") }
      break
      }
